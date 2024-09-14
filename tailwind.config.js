@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
     fontFamily:{
-      body: ['Raleway']
+      body: ['Playfair Display']
     },
     colors:{
       primary:'#ff6363',
