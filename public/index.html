@@ -10,20 +10,22 @@
     <title>Valtro Tech Entrp..</title>
 </head>
 <body>
-    <header class="flex gap-2 border-b border-gray-200 shadow-lg fixed z-10 w-full">
+    <header class="flex gap-2 border-b border-gray-200 shadow-lg fixed z-10 w-full bg-gray-400">
         <div>
           <img src="./images/favicon.svg" alt="logo" class="w-20 mt-2">
         </div>
 
         <div class="mt-5 ml-4 flex gap-8 whitespace-nowrap">
             <h1 class="font-medium font-body text-4xl hover:bg-transparent">Valtro 
-                <span class="text-gray-500 font-serif">Tech Enterprise</span>
+                <span class="text-gray-500 font-serif">Tech Enterprise</span> <br>
+                <pre class="text-xs ml-4 px-2 font-light font-mono">Promoting Technology For Energy......</pre>
             </h1>
             <div>
                 <div class="ml-14 mt-2 mr-4">
-                    <button class="border border-gray-500 p-2 bg-white text-gray-700 rounded lg:hidden">
-                        Menu
-                    </button>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 block lg:hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                      </svg>
+                      
                 </div>
 
                 <nav class="flex">
@@ -56,10 +58,28 @@
                           </li>
                         </ul>
                 </nav>
-               
             </div>
         </div>
-    </header>
-    <script src="./index.js"></script>
+    </header> <br><br>
+
+    <main class="mt-8">
+        <div>
+        <figure class="card relative">
+            <img src="./images/benz.jpg" alt="Electric Vehicle">
+          <div class="absolute top-0 sm: ml-4 lg:left-2/4 -right-2/4 mt-4 font-semibold ">
+            <p class="text-white font-body sm:text-4xl lg:text-6xl"> Model ZXR </p> <br>
+        </div>
+            <div class="absolute top-0 lg:mt-20 left-2/4 -ml-52 hidden lg:block">
+                <p class="text-white font-body font-light text-4xl border-b border-gray-500 pb-4">$0 Due at Signing</p>
+            </div>
+
+            <div class="absolute top-0  left-2/4 -ml-52 mt-36 hidden lg:block">
+                <p class="text-white font-body font-light text-2xl pb-4 ml-12"> From $31,4901
+                    </p>
+            </div>
+       
+        </figure>
+        </div> 
+    </main>
 </body>
 </html> 
