@@ -6,6 +6,9 @@ module.exports = {
     fontFamily:{
       body: ['Playfair Display']
     },
+    fontFamily:{
+      text: ['Tinos']
+    },
     colors:{
       primary:'#ff6363',
       secondary: {

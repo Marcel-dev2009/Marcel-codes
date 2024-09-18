@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+  
+}
+
 .card{
-    @apply bg-white rounded overflow-hidden shadow-md relative;
+    @apply bg-white  overflow-hidden shadow-md relative;
 }
  .badge{
    @apply bg-yellow-200 text-secondary-200 font-bold text-xs rounded-full p-2 uppercase absolute top-0 ml-2 mt-4;
