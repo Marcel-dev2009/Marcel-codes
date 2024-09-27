@@ -8,6 +8,36 @@ html{
   scroll-behavior: smooth;
   
 }
+/* .b-image{
+  background-color: rgba(255, 255, 255, 0.2);
+} */
+ .svg{
+  filter: invert(80%) brightness(99%);
+ }
+.smooth{
+  position: relative;
+  display:block;
+}
+.smooth::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 120%;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transition: transform 0.3s ease ;
+}
+.smooth:hover::before{
+  transform: scale(1.1);
+}
+.s-button {
+  margin-top:22em;
+}
+.tech{
+  color: rgb(177, 68, 68);
+}
 
 .card{
     @apply bg-white  overflow-hidden shadow-md relative;
