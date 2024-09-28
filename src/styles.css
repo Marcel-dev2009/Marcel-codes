@@ -39,6 +39,12 @@ html{
   color: rgb(177, 68, 68);
 }
 
+.grow{
+  transition: transform 0.3s ease-in;
+}
+.grow:hover{
+  transform: scale(1.1)
+}
 .card{
     @apply bg-white  overflow-hidden shadow-md relative;
 }
@@ -47,6 +53,22 @@ html{
  }
  .btn{
   @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+ }
+
+ .contact{
+  
+ }
+ @media (prefers-color-scheme:dark){
+  body{
+    background-color: white;
+    color: black;
+  }
+ }
+ @media (prefers-color-scheme:light){
+  body{
+    background-color: black;
+    color: white;
+  }
  }
 
  
