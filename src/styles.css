@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html{
   scroll-behavior: smooth;
   
@@ -13,6 +21,9 @@ html{
 } */
  .svg{
   filter: invert(80%) brightness(99%);
+ }
+ .toggle{
+  margin-right: 5em;
  }
 .smooth{
   position: relative;
@@ -55,9 +66,7 @@ html{
   @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
  }
 
- .contact{
-  
- }
+ 
  @media (prefers-color-scheme:dark){
   body{
     background-color: white;
@@ -70,5 +79,13 @@ html{
     color: white;
   }
  }
-
- 
+@media screen and (max-width : 768px) {
+  html{
+    overflow: hidden;
+    min-width: fit-content;
+  }
+  body{
+    width: 100vw;
+  }
+  
+}
